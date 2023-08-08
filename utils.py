@@ -338,6 +338,7 @@ def get_dataloader(dataset_name, dataset_dir, split, tokenizer, prompt_idx, batc
     if no_data_balance:
         for idx in random_idxs:
             question, answer = prompt.apply(preprocessed_dataset[int(idx)])
+            print(question, answer)
             input_text = question + " " + answer
             if len(tokenizer.encode(input_text,
                                     truncation=False)) < tokenizer.model_max_length - 2:  # include small margin to be conservative
