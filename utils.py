@@ -331,6 +331,7 @@ def get_dataloader(dataset_name, dataset_dir, split, tokenizer, prompt_idx, batc
 
     # remove examples that would be truncated (since this messes up contrast pairs)
     prompt_name_list = list(all_prompts.name_to_id_mapping.keys())
+    print(prompt_name_list, prompt_idx)
     prompt = all_prompts[prompt_name_list[prompt_idx]]
     keep_idxs = []
     if no_data_balance:
