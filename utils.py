@@ -331,9 +331,7 @@ def get_dataloader(dataset_name, dataset_dir, split, tokenizer, prompt_idx, batc
 
     # remove examples that would be truncated (since this messes up contrast pairs)
     prompt_name_list = list(all_prompts.name_to_id_mapping.keys())
-    print(prompt_name_list, prompt_idx)
     prompt = all_prompts[prompt_name_list[prompt_idx]]
-    print(prompt)
     keep_idxs = []
     if no_data_balance:
         for idx in random_idxs:
@@ -374,7 +372,6 @@ def get_dataloader(dataset_name, dataset_dir, split, tokenizer, prompt_idx, batc
             print("WARNING: Balancing data did not work")
     # create and return the corresponding dataloader
         random.shuffle(keep_idxs)
-    print(keep_idxs)
     subset_dataset = torch.utils.data.Subset(contrast_dataset, keep_idxs)
     dataloader = DataLoader(subset_dataset, batch_size=batch_size, shuffle=False, pin_memory=pin_memory, num_workers=num_workers)
 
