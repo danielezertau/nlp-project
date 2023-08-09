@@ -1,6 +1,6 @@
 datasets:
   - dataset_name: jigsaw_toxicity_pred
-    dataset_dir: toxic_dataset_jigsaw
+    dataset_dir: jigsaw
     template_file_path: templates/jigsaw-toxicity-pred-templates.yaml
     data_split: "train"
   - dataset_name: jigsaw_unintended_bias
