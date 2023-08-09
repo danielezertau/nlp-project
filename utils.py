@@ -338,7 +338,6 @@ def get_dataloader(dataset_name, dataset_dir, split, tokenizer, prompt_idx, batc
     if no_data_balance:
         for idx in random_idxs:
             question, answer = prompt.apply(preprocessed_dataset[int(idx)])
-            print(question, answer)
             input_text = question + " " + answer
             if len(tokenizer.encode(input_text,
                                     truncation=False)) < tokenizer.model_max_length - 2:  # include small margin to be conservative
@@ -375,7 +374,7 @@ def get_dataloader(dataset_name, dataset_dir, split, tokenizer, prompt_idx, batc
             print("WARNING: Balancing data did not work")
     # create and return the corresponding dataloader
         random.shuffle(keep_idxs)
-
+    print(keep_idxs)
     subset_dataset = torch.utils.data.Subset(contrast_dataset, keep_idxs)
     dataloader = DataLoader(subset_dataset, batch_size=batch_size, shuffle=False, pin_memory=pin_memory, num_workers=num_workers)
 
