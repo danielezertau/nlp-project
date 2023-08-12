@@ -9,11 +9,11 @@ def main(parser, generation_args):
     parser.add_argument("--lr", type=float, default=1e-3)
     parser.add_argument("--ccs_batch_size", type=int, default=-1)
     parser.add_argument("--verbose", action="store_true")
-    parser.add_argument("--ccs_device", type=str, default="cuda")
     parser.add_argument("--linear", action="store_true")
     parser.add_argument("--weight_decay", type=float, default=0.01)
     parser.add_argument("--var_normalize", action="store_true")
     args = parser.parse_args()
+    args.device = generation_args.device
 
     # load hidden states and labels
     neg_hs, pos_hs, y = load_all_generations(generation_args)
@@ -40,7 +40,7 @@ def main(parser, generation_args):
 
     # Set up CCS. Note that you can usually just use the default args by simply doing ccs = CCS(neg_hs, pos_hs, y)
     ccs = CCS(neg_hs_train, pos_hs_train, nepochs=args.nepochs, ntries=args.ntries, lr=args.lr, batch_size=args.ccs_batch_size, 
-                    verbose=args.verbose, device=args.ccs_device, linear=args.linear, weight_decay=args.weight_decay, 
+                    verbose=args.verbose, device=args.device, linear=args.linear, weight_decay=args.weight_decay, 
                     var_normalize=args.var_normalize)
     
     # train and evaluate CCS
