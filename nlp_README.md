@@ -19,3 +19,5 @@ Additional Info relevant to the datasets we use in this project
 >   2. python generate.py --model_name roberta-mnli --num_examples 100 --batch_size 20 --dataset_name jigsaw_toxicity_pred
 >2. jigsaw_unintended_bias:  
 >   3. python generate.py --model_name roberta-mnli --num_examples 100 --batch_size 20 --dataset_name jigsaw_unintended_bias --device cpu --dataset_dir .\ --split train --prompt_idx 8
+>3. sexism-socialmedia-balanced
+>   4. python generate.py --model_name roberta-mnli --num_examples 1000 --batch_size 20 --dataset_name sexism-socialmedia-balanced --dataset_dir .\ --device cpu --split train --no_data_balance
