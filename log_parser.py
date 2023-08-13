@@ -105,7 +105,7 @@ def main():
     path = r".\logs\roberta-deberta-gptj-log.txt"
     j_data = parse_log(path)
     #analyze_model(j_data)
-    #analyze_dataset_prompts(j_data)
-    analyze_num_of_examples(j_data)
+    analyze_dataset_prompts(j_data)
+    #analyze_num_of_examples(j_data)
 if __name__ == '__main__':
     main()
