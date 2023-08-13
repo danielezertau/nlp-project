@@ -1,0 +1,821 @@
+Model: 'deberta'
+Prompt Number: '0'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.8
+CCS accuracy: 0.628
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'deberta'
+Prompt Number: '1'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.864
+CCS accuracy: 0.516
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'deberta'
+Prompt Number: '2'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.804
+CCS accuracy: 0.5760000000000001
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Model: 'deberta'
+Prompt Number: '0'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.824
+CCS accuracy: 0.616
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'deberta'
+Prompt Number: '1'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.864
+CCS accuracy: 0.584
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'deberta'
+Prompt Number: '2'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.842
+CCS accuracy: 0.548
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'deberta'
+Prompt Number: '0'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.874
+CCS accuracy: 0.619
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'deberta'
+Prompt Number: '1'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.878
+CCS accuracy: 0.516
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'deberta'
+Prompt Number: '2'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.872
+CCS accuracy: 0.571
+Copying templates file templates/jigsaw-unintended-bias-templates.yaml to /opt/conda/lib/python3.7/site-packages/promptsource/templates/jigsaw_unintended_bias/templates.yaml
+Successfully copied templates file
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'deberta'
+Prompt Number: '0'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.648
+CCS accuracy: 0.532
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'deberta'
+Prompt Number: '0'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.728
+CCS accuracy: 0.552
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'deberta'
+Prompt Number: '1'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.652
+CCS accuracy: 0.512
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'deberta'
+Prompt Number: '1'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.664
+CCS accuracy: 0.54
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'deberta'
+Prompt Number: '2'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.676
+CCS accuracy: 0.524
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'deberta'
+Prompt Number: '2'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.692
+CCS accuracy: 0.536
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'deberta'
+Prompt Number: '0'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.688
+CCS accuracy: 0.506
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'deberta'
+Prompt Number: '0'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.744
+CCS accuracy: 0.514
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'deberta'
+Prompt Number: '1'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.704
+CCS accuracy: 0.536
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'deberta'
+Prompt Number: '1'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.714
+CCS accuracy: 0.546
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'deberta'
+Prompt Number: '2'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.694
+CCS accuracy: 0.528
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Model: 'deberta'
+Prompt Number: '2'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.72
+CCS accuracy: 0.542
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'deberta'
+Prompt Number: '0'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.734
+CCS accuracy: 0.505
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'deberta'
+Prompt Number: '0'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.749
+CCS accuracy: 0.521
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'deberta'
+Prompt Number: '1'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.754
+CCS accuracy: 0.518
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'deberta'
+Prompt Number: '1'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.765
+CCS accuracy: 0.5660000000000001
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'deberta'
+Prompt Number: '2'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.701
+CCS accuracy: 0.503
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'deberta'
+Prompt Number: '2'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.76
+CCS accuracy: 0.507
+Copying templates file templates/jigsaw-toxicity-pred-templates.yaml to /opt/conda/lib/python3.7/site-packages/promptsource/templates/jigsaw_toxicity_pred/templates.yaml
+Successfully copied templates file
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '0'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.772
+CCS accuracy: 0.536
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '1'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.796
+CCS accuracy: 0.6839999999999999
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '2'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.644
+CCS accuracy: 0.544
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '0'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.754
+CCS accuracy: 0.554
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '1'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.81
+CCS accuracy: 0.786
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '2'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.772
+CCS accuracy: 0.508
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '0'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.759
+CCS accuracy: 0.5660000000000001
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '1'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.834
+CCS accuracy: 0.504
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '2'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.783
+CCS accuracy: 0.521
+Copying templates file templates/jigsaw-unintended-bias-templates.yaml to /opt/conda/lib/python3.7/site-packages/promptsource/templates/jigsaw_unintended_bias/templates.yaml
+Successfully copied templates file
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '0'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.652
+CCS accuracy: 0.552
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '0'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.656
+CCS accuracy: 0.52
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '1'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.664
+CCS accuracy: 0.524
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '1'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.648
+CCS accuracy: 0.5
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '2'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.672
+CCS accuracy: 0.592
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '2'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.668
+CCS accuracy: 0.596
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '0'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.7
+CCS accuracy: 0.506
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '0'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.734
+CCS accuracy: 0.524
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '1'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.69
+CCS accuracy: 0.568
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '1'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.674
+CCS accuracy: 0.552
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '2'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.7
+CCS accuracy: 0.57
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '2'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.704
+CCS accuracy: 0.69
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '0'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.705
+CCS accuracy: 0.504
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '0'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.723
+CCS accuracy: 0.5389999999999999
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '1'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.694
+CCS accuracy: 0.531
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '1'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.709
+CCS accuracy: 0.578
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '2'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.69
+CCS accuracy: 0.623
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '2'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.683
+CCS accuracy: 0.577
+Copying templates file templates/jigsaw-toxicity-pred-templates.yaml to /opt/conda/lib/python3.7/site-packages/promptsource/templates/jigsaw_toxicity_pred/templates.yaml
+Successfully copied templates file
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '0'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.728
+CCS accuracy: 0.5880000000000001
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '1'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.66
+CCS accuracy: 0.644
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '2'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.712
+CCS accuracy: 0.644
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '0'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.726
+CCS accuracy: 0.64
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '1'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.694
+CCS accuracy: 0.63
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '2'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.716
+CCS accuracy: 0.5780000000000001
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '0'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.759
+CCS accuracy: 0.577
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '1'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.683
+CCS accuracy: 0.583
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '2'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.766
+CCS accuracy: 0.583
+Copying templates file templates/jigsaw-unintended-bias-templates.yaml to /opt/conda/lib/python3.7/site-packages/promptsource/templates/jigsaw_unintended_bias/templates.yaml
+Successfully copied templates file
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '0'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.54
+CCS accuracy: 0.536
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '0'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.588
+CCS accuracy: 0.548
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '1'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.6
+CCS accuracy: 0.528
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '1'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.512
+CCS accuracy: 0.532
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '2'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.588
+CCS accuracy: 0.548
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '2'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.5
+CCS accuracy: 0.532
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '0'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.606
+CCS accuracy: 0.518
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '0'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.57
+CCS accuracy: 0.55
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '1'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.59
+CCS accuracy: 0.558
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '1'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.504
+CCS accuracy: 0.52
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '2'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.688
+CCS accuracy: 0.534
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '2'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.584
+CCS accuracy: 0.556
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '0'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.7
+CCS accuracy: 0.506
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '0'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.589
+CCS accuracy: 0.565
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '1'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.704
+CCS accuracy: 0.5389999999999999
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '1'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.594
+CCS accuracy: 0.552
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '2'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.648
+CCS accuracy: 0.515
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'gpt-j'
+Prompt Number: '2'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.57
+CCS accuracy: 0.558
