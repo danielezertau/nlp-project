@@ -3,7 +3,7 @@ Additional Info relevant to the datasets we use in this project
 # DataSets:
 >1. jigsaw dataset - https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data
 >2. jigsaw_unintended_bias dataset - https://www.kaggle.com/competitions/jigsaw-unintended-bias-in-toxicity-classification/data
-
+>3. sexism-socialmedia-balanced - https://huggingface.co/datasets/tum-nlp/sexism-socialmedia-balanced
 ## Prompts:
 
 >1. jigsaw_unintended_bias indices 
