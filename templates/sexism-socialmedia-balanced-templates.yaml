@@ -3,7 +3,7 @@ templates:
   02ff2949-0f45-4d97-941e-6fa4c0afbc2d: !Template
     answer_choices: No ||| Yes
     id: 02ff2949-0f45-4d97-941e-6fa4c0afbc2d
-    jinja: Would you consider this as sexist? {{text}} ||| {{ answer_choices
+    jinja: Is the following statement sexist? {{text}} ||| {{ answer_choices
       [label] }}
     metadata: !TemplateMetadata
       choices_in_prompt: true
