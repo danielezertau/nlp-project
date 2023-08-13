@@ -6,6 +6,9 @@ import statsmodels.api as sm
 MODELS = ["deberta", "roberta-mnli", "gpt-j"]
 DATASETS = ["jigsaw_toxicity_pred", "jigsaw_unintended_bias"]
 PROMPTS = [0, 1, 2]
+NUN_OF_EXAMPLES = [500, 1000, 2000]
+
+
 def is_numeric_or_float(text):
     if text.isdigit():
         return int(text)
@@ -85,11 +88,24 @@ def analyze_dataset_prompts(jdata):
             print(specific_params)
             print("\n")
 
+
+def analyze_num_of_examples(jdata):
+    for num_ex in NUN_OF_EXAMPLES:
+        print("Num of examples {0} statistics:".format(num_ex))
+        df = pd.read_json(jdata)
+        summary = df[df["Number of Examples"] == num_ex].describe()
+        specific_params = summary.T.loc[["CCS accuracy", "Logistic regression accuracy"]]
+        specific_params = specific_params.drop(columns=["count", "25%", "50%", "75%"])
+        pd.set_option("display.max_columns", None)
+        print(specific_params)
+        print("\n")
+
+
 def main():
     path = r".\logs\roberta-deberta-gptj-log.txt"
     j_data = parse_log(path)
-    analyze_model(j_data)
+    #analyze_model(j_data)
     analyze_dataset_prompts(j_data)
-
+    #analyze_num_of_examples(j_data)
 if __name__ == '__main__':
     main()

@@ -303,6 +303,16 @@ def toxic_function_preprocess(dataset_name, true_label, threshold):
             return item
 
         return toxic_preprocess
+    elif dataset_name == "sexism-socialmedia-balanced":
+        def sexist_preprocess(item):
+
+            if item["label_sexist"] == "sexist":
+                item["label"] = 1
+            else:
+                item["label"] = 0
+            return item
+
+        return sexist_preprocess
     else:
         def func_def(item):
             return item
