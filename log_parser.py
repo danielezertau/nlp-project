@@ -7,6 +7,7 @@ MODELS = ["deberta", "roberta-mnli", "gpt-j"]
 DATASETS = ["jigsaw_toxicity_pred", "jigsaw_unintended_bias"]
 PROMPTS = [0, 1, 2]
 NUN_OF_EXAMPLES = [500, 1000, 2000]
+THRESHOLDS = [0.4, 0.6]
 
 
 def is_numeric_or_float(text):
@@ -59,18 +60,19 @@ def analyze_model_dataset(jdata):
             df = pd.read_json(jdata)
             summary = df[(df["Model"]==model) & (df["Dataset Name"]==dataset)].describe()
             specific_params = summary.T.loc[["CCS accuracy", "Logistic regression accuracy"]]
-            specific_params = specific_params.drop(columns=["count","25%","50%","75%"])
+            specific_params = specific_params.drop(columns=["count", "25%", "50%", "75%"])
             pd.set_option("display.max_columns", None)
             print(specific_params)
             print("\n")
+
 
 def analyze_model(jdata):
     for model in MODELS:
         print("Model {0} statistics:\n".format(model))
         df = pd.read_json(jdata)
-        summary = df[(df["Model"]==model)].describe()
+        summary = df[(df["Model"] == model)].describe()
         specific_params = summary.T.loc[["CCS accuracy", "Logistic regression accuracy"]]
-        specific_params = specific_params.drop(columns=["count","25%","50%","75%"])
+        specific_params = specific_params.drop(columns=["count", "25%", "50%", "75%"])
         pd.set_option("display.max_columns", None)
         print(specific_params)
         print("\n")
