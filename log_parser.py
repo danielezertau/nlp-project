@@ -1,7 +1,6 @@
 import pandas as pd
 import re
 import json
-import statsmodels.api as sm
 
 MODELS = ["deberta", "roberta-mnli", "gpt-j"]
 DATASETS = ["jigsaw_toxicity_pred", "jigsaw_unintended_bias"]
@@ -58,7 +57,7 @@ def analyze_model_dataset(jdata):
         for dataset in DATASETS:
             print("Model {0} dataset {1} statistics:\n".format(model, dataset))
             df = pd.read_json(jdata)
-            summary = df[(df["Model"]==model) & (df["Dataset Name"]==dataset)].describe()
+            summary = df[(df["Model"] == model) & (df["Dataset Name"] == dataset)].describe()
             specific_params = summary.T.loc[["CCS accuracy", "Logistic regression accuracy"]]
             specific_params = specific_params.drop(columns=["count", "25%", "50%", "75%"])
             pd.set_option("display.max_columns", None)
@@ -104,10 +103,12 @@ def analyze_num_of_examples(jdata):
 
 
 def main():
-    path = r".\logs\roberta-deberta-gptj-log.txt"
+    path = r"./logs/roberta-deberta-gptj-log.txt"
     j_data = parse_log(path)
-    #analyze_model(j_data)
+    # analyze_model(j_data)
     analyze_dataset_prompts(j_data)
-    #analyze_num_of_examples(j_data)
+    # analyze_num_of_examples(j_data)
+
+
 if __name__ == '__main__':
     main()
