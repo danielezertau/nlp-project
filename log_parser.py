@@ -1,8 +1,9 @@
 import pandas as pd
 import re
 import json
+import statsmodels.api as sm
 
-MODELS = ["deberta", "roberta-mnli", "gpt-j", "T0pp"]
+MODELS = ["deberta", "roberta-mnli", "gpt-j"]
 DATASETS = ["jigsaw_toxicity_pred", "jigsaw_unintended_bias"]
 PROMPTS = [0, 1, 2]
 NUN_OF_EXAMPLES = [500, 1000, 2000]
@@ -57,7 +58,7 @@ def analyze_model_dataset(jdata):
         for dataset in DATASETS:
             print("Model {0} dataset {1} statistics:\n".format(model, dataset))
             df = pd.read_json(jdata)
-            summary = df[(df["Model"] == model) & (df["Dataset Name"] == dataset)].describe()
+            summary = df[(df["Model"]==model) & (df["Dataset Name"]==dataset)].describe()
             specific_params = summary.T.loc[["CCS accuracy", "Logistic regression accuracy"]]
             specific_params = specific_params.drop(columns=["count", "25%", "50%", "75%"])
             pd.set_option("display.max_columns", None)
@@ -102,25 +103,11 @@ def analyze_num_of_examples(jdata):
         print("\n")
 
 
-def analyze_threshold(jdata):
-    for threshold in THRESHOLDS:
-        print("Threshold {0} statistics:".format(threshold))
-        df = pd.read_json(jdata)
-        summary = df[df["Toxicity Threshold"] == threshold & "Number of Examples" == 2000].describe()
-        specific_params = summary.T.loc[["CCS accuracy", "Logistic regression accuracy"]]
-        specific_params = specific_params.drop(columns=["count", "25%", "50%", "75%"])
-        pd.set_option("display.max_columns", None)
-        print(specific_params)
-        print("\n")
-
 def main():
-    path = r"./logs/t0pp-log.txt"
+    path = r".\logs\roberta-deberta-gptj-log.txt"
     j_data = parse_log(path)
-    analyze_model(j_data)
-    # analyze_threshold(j_data)
-    # analyze_dataset_prompts(j_data)
-    # analyze_num_of_examples(j_data)
-
-
+    #analyze_model(j_data)
+    analyze_dataset_prompts(j_data)
+    #analyze_num_of_examples(j_data)
 if __name__ == '__main__':
     main()
