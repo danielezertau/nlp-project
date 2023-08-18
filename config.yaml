@@ -3,28 +3,22 @@ datasets:
     dataset_dir: jigsaw
     template_file_path: templates/jigsaw-toxicity-pred-templates.yaml
     data_split: "train"
-  - dataset_name: jigsaw_unintended_bias
-    dataset_dir: jigsaw_unintended_bias
-    template_file_path: templates/jigsaw-unintended-bias-templates.yaml
-    data_split: "train"
-    thresholds: [0.4, 0.6]
 
 models:
-  - name: deberta
-    device: cuda
   - name: roberta-mnli
     device: cuda
-  - name: gpt-j
-    device: cpu
-  - name: T0pp
-    device: cpu
-  - name: T5
-    device: cpu
 
 num_training_examples:
-  - 500
   - 1000
-  - 2000
+  - 1000
+  - 1000
+  - 1000
+  - 1000
+  - 1000
+  - 1000
+  - 1000
+  - 1000
+  - 1000
 
 no_data_balance:
   - False

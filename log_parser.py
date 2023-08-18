@@ -2,7 +2,7 @@ import pandas as pd
 import re
 import json
 
-MODELS = ["deberta", "roberta-mnli", "gpt-j"]
+MODELS = ["deberta", "roberta-mnli", "gpt-j", "T0pp"]
 DATASETS = ["jigsaw_toxicity_pred", "jigsaw_unintended_bias"]
 PROMPTS = [0, 1, 2]
 NUN_OF_EXAMPLES = [500, 1000, 2000]
@@ -90,6 +90,17 @@ def analyze_dataset_prompts(jdata):
             print("\n")
 
 
+def analyze_threshold(jdata):
+    for thres in THRESHOLDS:
+        print("Threshold {0} statistics:".format(thres))
+        df = pd.read_json(jdata)
+        summary = df[df["Toxicity Threshold"] == thres].describe()
+        specific_params = summary.T.loc[["CCS accuracy", "Logistic regression accuracy"]]
+        specific_params = specific_params.drop(columns=["count", "25%", "50%", "75%"])
+        pd.set_option("display.max_columns", None)
+        print(specific_params)
+        print("\n")
+
 def analyze_num_of_examples(jdata):
     for num_ex in NUN_OF_EXAMPLES:
         print("Num of examples {0} statistics:".format(num_ex))
@@ -99,15 +110,28 @@ def analyze_num_of_examples(jdata):
         specific_params = specific_params.drop(columns=["count", "25%", "50%", "75%"])
         pd.set_option("display.max_columns", None)
         print(specific_params)
-        print("\n")
-
+        print(
+            "\n")
+def analyze_config(jdata):
+    for dataset in DATASETS:
+        for prompt in PROMPTS:
+            for num_ex in NUN_OF_EXAMPLES:
+                print("Dataset {0} prompt {1} Num of examples {2} statistics:".format(dataset, prompt, num_ex))
+                df = pd.read_json(jdata)
+                summary = df[(df["Dataset Name"] == dataset) & (df["Prompt Number"] == prompt) & (df["Number of Examples"]==num_ex)].describe()
+                specific_params = summary.T.loc[["CCS accuracy", "Logistic regression accuracy"]]
+                specific_params = specific_params.drop(columns=["count", "25%", "50%", "75%"])
+                pd.set_option("display.max_columns", None)
+                print(specific_params)
+                print("\n")
 
 def main():
-    path = r"./logs/roberta-deberta-gptj-log.txt"
+    path = r"./logs/all_log.txt"
     j_data = parse_log(path)
-    # analyze_model(j_data)
-    analyze_dataset_prompts(j_data)
+    #analyze_model(j_data)
+    #analyze_dataset_prompts(j_data)
     # analyze_num_of_examples(j_data)
+    analyze_config(j_data)
 
 
 if __name__ == '__main__':

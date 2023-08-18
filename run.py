@@ -100,14 +100,16 @@ if __name__ == '__main__':
             data_split = dataset_obj['data_split']
             if template_file_path is not None:
                 copy_templates_file(template_file_path, dataset_obj['dataset_name'])
-            for n_examples in num_examples_l:
+            for j in range(len(num_examples_l)):
+                print("iter j")
                 prompt_indices = get_prompt_indices(dataset_obj, template_file_path)
                 for i in prompt_indices:
-                    for should_data_balance in no_data_balance_l:
-                        # Iterate over thresholds if we've set them in the config,
-                        # or use some arbitrary value when it's not set
-                        for toxic_threshold in (dataset_obj.get('thresholds') or [0]):
-                            args_parser = get_parser()
-                            generate_and_evaluate(args_parser, model_name, dataset_obj, n_examples, i,
-                                                  should_data_balance, model_device, data_split, toxic_threshold)
+                    if i == 1:
+                        for should_data_balance in no_data_balance_l:
+                            # Iterate over thresholds if we've set them in the config,
+                            # or use some arbitrary value when it's not set
+                            for toxic_threshold in (dataset_obj.get('thresholds') or [0]):
+                                args_parser = get_parser()
+                                generate_and_evaluate(args_parser, model_name, dataset_obj, num_examples_l[j], i,
+                                                      should_data_balance, model_device, data_split, toxic_threshold)
     print("Finished running generate and evaluate with all model configurations")
