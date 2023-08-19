@@ -2,7 +2,7 @@ import pandas as pd
 import re
 import json
 
-MODELS = ["deberta", "roberta-mnli", "gpt-j"]
+MODELS = ["deberta", "roberta-mnli", "gpt-j", "T0pp", "T5"]
 DATASETS = ["jigsaw_toxicity_pred", "jigsaw_unintended_bias"]
 PROMPTS = [0, 1, 2]
 NUN_OF_EXAMPLES = [500, 1000, 2000]
