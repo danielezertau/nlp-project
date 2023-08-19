@@ -8,7 +8,7 @@ import generate
 import evaluate
 
 BATCH_SIZE = 6
-
+NUMBER_OF_RUNS = 1
 
 def parse_config():
     parser = argparse.ArgumentParser()
@@ -94,22 +94,25 @@ if __name__ == '__main__':
     num_examples_l = yaml_config['num_training_examples']
     no_data_balance_l = yaml_config['no_data_balance']
 
-    for model_obj in models:
-        model_name = model_obj['name']
-        model_device = model_obj.get('device')
-        for dataset_obj in datasets:
-            template_file_path = dataset_obj.get('template_file_path')
-            data_split = dataset_obj['data_split']
-            if template_file_path is not None:
-                copy_templates_file(template_file_path, dataset_obj['dataset_name'])
-            for n_examples in num_examples_l:
-                prompt_indices = get_prompt_indices(dataset_obj, template_file_path)
-                for i in prompt_indices:
-                    for should_data_balance in no_data_balance_l:
-                        # Iterate over thresholds if we've set them in the config,
-                        # or use some arbitrary value when it's not set
-                        for toxic_threshold in (dataset_obj.get('thresholds') or [0]):
-                            args_parser = get_parser()
-                            generate_and_evaluate(args_parser, model_name, dataset_obj, n_examples, i,
-                                                  should_data_balance, model_device, data_split, toxic_threshold)
-    print("Finished running generate and evaluate with all model configurations")
+    for run_number in range(NUMBER_OF_RUNS):
+        print(f"Run Number: {run_number}")
+        for model_obj in models:
+            model_name = model_obj['name']
+            model_device = model_obj.get('device')
+            for dataset_obj in datasets:
+                template_file_path = dataset_obj.get('template_file_path')
+                data_split = dataset_obj['data_split']
+                if template_file_path is not None:
+                    copy_templates_file(template_file_path, dataset_obj['dataset_name'])
+                for n_examples in num_examples_l:
+                    prompt_indices = get_prompt_indices(dataset_obj, template_file_path)
+                    for i in prompt_indices:
+                        for should_data_balance in no_data_balance_l:
+                            # Iterate over thresholds if we've set them in the config,
+                            # or use some arbitrary value when it's not set
+                            for toxic_threshold in (dataset_obj.get('thresholds') or [0]):
+                                args_parser = get_parser()
+                                generate_and_evaluate(args_parser, model_name, dataset_obj, n_examples, i,
+                                                      should_data_balance, model_device, data_split, toxic_threshold)
+        print("Finished running generate and evaluate with all model configurations")
+    print("Finished all runs")
