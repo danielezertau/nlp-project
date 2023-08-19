@@ -1,0 +1,250 @@
+Model: 'T5'
+Prompt Number: '0'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.792
+CCS accuracy: 0.5640000000000001
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'T5'
+Prompt Number: '1'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.772
+CCS accuracy: 0.5
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'T5'
+Prompt Number: '2'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.796
+CCS accuracy: 0.524
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'T5'
+Prompt Number: '0'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.79
+CCS accuracy: 0.504
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'T5'
+Prompt Number: '1'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.844
+CCS accuracy: 0.51
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'T5'
+Prompt Number: '2'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.832
+CCS accuracy: 0.518
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'T5'
+Prompt Number: '0'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.833
+CCS accuracy: 0.502
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'T5'
+Prompt Number: '1'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.799
+CCS accuracy: 0.501
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'T5'
+Prompt Number: '2'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.831
+CCS accuracy: 0.517
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'T5'
+Prompt Number: '0'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.672
+CCS accuracy: 0.512
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'T5'
+Prompt Number: '0'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.684
+CCS accuracy: 0.52
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'T5'
+Prompt Number: '2'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.52
+CCS accuracy: 0.524
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'T5'
+Prompt Number: '2'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.596
+CCS accuracy: 0.532
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'T5'
+Prompt Number: '0'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.702
+CCS accuracy: 0.522
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'T5'
+Prompt Number: '0'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.678
+CCS accuracy: 0.51
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'T5'
+Prompt Number: '1'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.59
+CCS accuracy: 0.504
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'T5'
+Prompt Number: '1'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.644
+CCS accuracy: 0.516
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'T5'
+Prompt Number: '2'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.6
+CCS accuracy: 0.504
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'T5'
+Prompt Number: '2'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.588
+CCS accuracy: 0.502
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'T5'
+Prompt Number: '0'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.729
+CCS accuracy: 0.516
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'T5'
+Prompt Number: '0'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.75
+CCS accuracy: 0.511
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'T5'
+Prompt Number: '1'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.643
+CCS accuracy: 0.509
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'T5'
+Prompt Number: '1'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.703
+CCS accuracy: 0.505
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'T5'
+Prompt Number: '2'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.4'
+Logistic regression accuracy: 0.615
+CCS accuracy: 0.504
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'T5'
+Prompt Number: '2'
+Number of Examples: '2000'
+Dataset Name: 'jigsaw_unintended_bias'
+Dataset Directory: 'jigsaw_unintended_bias'
+No Data Balance: 'False'
+Toxicity Threshold: '0.6'
+Logistic regression accuracy: 0.637
+CCS accuracy: 0.509
+Finished running generate and evaluate with all model configurations
