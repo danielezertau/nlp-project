@@ -1,0 +1,144 @@
+Model: 'roberta-mnli'
+Prompt Number: '1'
+Number of Examples: '10'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.0
+CCS accuracy: 0.6
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '1'
+Number of Examples: '10'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'True'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.8
+CCS accuracy: 0.8
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '1'
+Number of Examples: '50'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.76
+CCS accuracy: 0.6
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '1'
+Number of Examples: '50'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'True'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.96
+CCS accuracy: 0.68
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '1'
+Number of Examples: '100'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.72
+CCS accuracy: 0.5800000000000001
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Run Number: 0
+Model: 'roberta-mnli'
+Prompt Number: '1'
+Number of Examples: '100'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'True'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.78
+CCS accuracy: 0.72
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Run Number: 0
+Model: 'roberta-mnli'
+Prompt Number: '1'
+Number of Examples: '250'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.792
+CCS accuracy: 0.632
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Run Number: 0
+Model: 'roberta-mnli'
+Prompt Number: '1'
+Number of Examples: '250'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'True'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.888
+CCS accuracy: 0.5760000000000001
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '1'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.788
+CCS accuracy: 0.648
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Run Number: 0
+Model: 'roberta-mnli'
+Prompt Number: '1'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'True'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.896
+CCS accuracy: 0.708
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '1'
+Number of Examples: '750'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.8053333333333333
+CCS accuracy: 0.7146666666666667
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '1'
+Number of Examples: '750'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'True'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.8586666666666667
+CCS accuracy: 0.5680000000000001
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Model: 'roberta-mnli'
+Prompt Number: '1'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'False'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.808
+CCS accuracy: 0.746
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Run Number: 0
+Model: 'roberta-mnli'
+Prompt Number: '1'
+Number of Examples: '1000'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'True'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.872
+CCS accuracy: 0.598
