@@ -1,0 +1,119 @@
+Running evaluate with the following arguments:
+Run Number: 0
+Model: 'deberta'
+Prompt Number: '0'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'True'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.892
+CCS accuracy: 0.556
+--
+Running evaluate with the following arguments:
+Run Number: 1
+Model: 'deberta'
+Prompt Number: '0'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'True'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.876
+CCS accuracy: 0.508
+--
+Running evaluate with the following arguments:
+Run Number: 2
+Model: 'deberta'
+Prompt Number: '0'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'True'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.876
+CCS accuracy: 0.5680000000000001
+--
+Running evaluate with the following arguments:
+Run Number: 3
+Model: 'deberta'
+Prompt Number: '0'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'True'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.856
+CCS accuracy: 0.628
+--
+Running evaluate with the following arguments:
+Run Number: 4
+Model: 'deberta'
+Prompt Number: '0'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'True'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.896
+CCS accuracy: 0.588
+--
+Running evaluate with the following arguments:
+Run Number: 5
+Model: 'deberta'
+Prompt Number: '0'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'True'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.88
+CCS accuracy: 0.528
+--
+Running evaluate with the following arguments:
+Run Number: 6
+Model: 'deberta'
+Prompt Number: '0'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'True'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.892
+CCS accuracy: 0.5640000000000001
+--
+Running evaluate with the following arguments:
+Run Number: 7
+Model: 'deberta'
+Prompt Number: '0'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'True'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.868
+CCS accuracy: 0.5920000000000001
+--
+Running evaluate with the following arguments:
+Run Number: 8
+Model: 'deberta'
+Prompt Number: '0'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'True'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.908
+CCS accuracy: 0.548
+--
+Running evaluate with the following arguments:
+Run Number: 9
+Model: 'deberta'
+Prompt Number: '0'
+Number of Examples: '500'
+Dataset Name: 'jigsaw_toxicity_pred'
+Dataset Directory: 'jigsaw'
+No Data Balance: 'True'
+Toxicity Threshold: '0'
+Logistic regression accuracy: 0.844
+CCS accuracy: 0.52
