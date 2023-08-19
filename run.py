@@ -38,7 +38,7 @@ def generate_and_evaluate(run_parser, model, dataset, num_examples, prompt_idx,
     run_args.split = split
     run_args.threshold = threshold
     print("-" * 200)
-    args_string = f"Run Number: {run_number}" \
+    args_string = f"Run Number: {run_number}\n" \
                   f"Model: '{model}'\n" \
                   f"Prompt Number: '{prompt_idx}'\n" \
                   f"Number of Examples: '{num_examples}'\n" \
