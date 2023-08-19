@@ -22,7 +22,7 @@ def parse_config():
 
 
 def generate_and_evaluate(run_parser, model, dataset, num_examples, prompt_idx,
-                          no_data_balance, device, split, threshold):
+                          no_data_balance, device, split, threshold, run_number):
     run_args = run_parser.parse_args()
     run_args.model_name = model
     run_args.batch_size = BATCH_SIZE
@@ -38,7 +38,8 @@ def generate_and_evaluate(run_parser, model, dataset, num_examples, prompt_idx,
     run_args.split = split
     run_args.threshold = threshold
     print("-" * 200)
-    args_string = f"Model: '{model}'\n" \
+    args_string = f"Run Number: {run_number}" \
+                  f"Model: '{model}'\n" \
                   f"Prompt Number: '{prompt_idx}'\n" \
                   f"Number of Examples: '{num_examples}'\n" \
                   f"Dataset Name: '{dataset_name}'\n" \
@@ -95,7 +96,6 @@ if __name__ == '__main__':
     no_data_balance_l = yaml_config['no_data_balance']
 
     for run_number in range(NUMBER_OF_RUNS):
-        print(f"Run Number: {run_number}")
         for model_obj in models:
             model_name = model_obj['name']
             model_device = model_obj.get('device')
@@ -113,6 +113,7 @@ if __name__ == '__main__':
                             for toxic_threshold in (dataset_obj.get('thresholds') or [0]):
                                 args_parser = get_parser()
                                 generate_and_evaluate(args_parser, model_name, dataset_obj, n_examples, i,
-                                                      should_data_balance, model_device, data_split, toxic_threshold)
+                                                      should_data_balance, model_device, data_split, toxic_threshold,
+                                                      run_number)
         print("Finished running generate and evaluate with all model configurations")
     print("Finished all runs")
