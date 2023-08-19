@@ -7,7 +7,7 @@ datasets:
     dataset_dir: jigsaw_unintended_bias
     template_file_path: templates/jigsaw-unintended-bias-templates.yaml
     data_split: "train"
-    thresholds: [0.4, 0.6]
+    thresholds: [0.6]
 
 models:
   - name: roberta-mnli
