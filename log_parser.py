@@ -103,7 +103,7 @@ def analyze_num_of_examples(jdata):
 
 
 def main():
-    path = r"./logs/roberta_all_configs_unbalanced.log"
+    path = r"logs/roberta_all_configs_no_balance.log"
     j_data = parse_log(path)
     analyze_model(j_data)
     analyze_dataset_prompts(j_data)
